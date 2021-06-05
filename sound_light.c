@@ -104,20 +104,4 @@ int main()
         if (gpio_get(BUTTON_3_PIN) && gpio_get(LED_3_PIN))
             game_win();
     }
-
-    
-
-    // while (true) 
-    // {
- 
-
-    //     if (gpio_get(BUTTON_1_PIN))
-    //         play(100);
-
-    //     if (gpio_get(BUTTON_2_PIN))
-    //         play(500);
-
-    //     if (gpio_get(BUTTON_3_PIN))
-    //         play(1000);            
-    // }
 }
